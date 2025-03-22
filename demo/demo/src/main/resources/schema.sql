@@ -2,7 +2,7 @@ CREATE TABLE books(
 
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(45) NULL, 
-    author VARCHAR(45) UNIQUE NULL, 
+    author VARCHAR(45) NULL, 
     yearOfPublication INT NULL
     
 
